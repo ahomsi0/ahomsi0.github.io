@@ -1,16 +1,11 @@
-/* ===============================
-   💎 RUBY RED + PURE BLACK THEME
-   =============================== */
+
 :root {
-  --bg: #0b0b0b; /* pure deep black background */
-  --accent: #b01238; /* ruby red */
-  --text: #f3f0ea; /* warm off-white */
-  --muted: #8b8682; /* soft beige-gray for readability */
+  --bg: #0b0b0b;
+  --accent: #b01238; 
+  --text: #f3f0ea; 
+  --muted: #8b8682; 
 }
 
-/* ===============================
-   GLOBAL STYLES
-   =============================== */
 * {
   margin: 0;
   padding: 0;
@@ -26,9 +21,6 @@ body {
   line-height: 1.6;
 }
 
-/* ===============================
-   NAVIGATION BAR
-   =============================== */
 nav {
   position: fixed;
   top: 0;
@@ -77,14 +69,10 @@ nav {
   text-shadow: 0 0 8px var(--accent);
 }
 
-/* Prevent hero from hiding under nav */
 #hero {
   padding-top: 120px;
 }
 
-/* ===============================
-   HERO SECTION
-   =============================== */
 #hero {
   height: 100vh;
   display: flex;
@@ -137,9 +125,6 @@ nav {
   transform: translateY(-3px);
 }
 
-/* ===============================
-   SECTION HEADINGS
-   =============================== */
 section {
   padding: 100px 10%;
   text-align: center;
@@ -163,11 +148,8 @@ h2::after {
   border-radius: 2px;
 }
 
-/* ===============================
-   ABOUT SECTION (Unified Black)
-   =============================== */
 #about {
-  background: none; /* removes gray background */
+  background: none; 
   padding: 120px 10%;
 }
 
@@ -186,9 +168,6 @@ h2::after {
   padding: 0;
 }
 
-/* ===============================
-   SKILLS
-   =============================== */
 .skills-grid {
   display: flex;
   flex-wrap: wrap;
@@ -215,9 +194,6 @@ h2::after {
   box-shadow: 0 0 12px var(--accent);
 }
 
-/* ===============================
-   PROJECT SECTION
-   =============================== */
 .project {
   background: rgba(255, 255, 255, 0.03);
   border: 1px solid rgba(255, 255, 255, 0.08);
@@ -248,9 +224,6 @@ h2::after {
   line-height: 1.7;
 }
 
-/* ===============================
-   CONTACT
-   =============================== */
 .contact-links {
   display: flex;
   justify-content: center;
@@ -272,9 +245,6 @@ h2::after {
   text-shadow: 0 0 8px var(--accent);
 }
 
-/* ===============================
-   FOOTER
-   =============================== */
 footer {
   text-align: center;
   padding: 30px 0;
@@ -290,9 +260,6 @@ footer .ruby-heart {
   text-shadow: 0 0 10px rgba(176, 18, 56, 0.6);
 }
 
-/* ===============================
-   RESPONSIVE DESIGN
-   =============================== */
 @media (max-width: 768px) {
   nav {
     flex-direction: column;
@@ -327,3 +294,4 @@ footer .ruby-heart {
     padding: 20px 0;
   }
 }
+
