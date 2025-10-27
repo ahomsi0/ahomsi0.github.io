@@ -1,10 +1,11 @@
 
 :root {
-  --bg: #0b0b0b;
-  --accent: #b01238; 
-  --text: #f3f0ea; 
-  --muted: #8b8682; 
+  --bg: #0b0b0b;       /* Dark background stays the same */
+  --accent: #0077ff;   /* Bright blue accent */
+  --text: #eaf3ff;     /* Light bluish-white text */
+  --muted: #7a8da6;    /* Muted gray-blue for secondary text */
 }
+
 
 * {
   margin: 0;
@@ -294,4 +295,5 @@ footer .ruby-heart {
     padding: 20px 0;
   }
 }
+
 
