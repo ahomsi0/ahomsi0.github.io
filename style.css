@@ -1,8 +1,8 @@
 :root {
-  --bg: #0b0b0b;       /* Dark background */
-  --accent: #0055cc;   /* Darker blue accent */
-  --text: #e8f1ff;     /* Soft cool white text */
-  --muted: #7a8da6;    /* Muted gray-blue for secondary text */
+  --bg: #0b0b0b;       
+  --accent: #0055cc;   
+  --text: #e8f1ff;     
+  --muted: #7a8da6;    
 }
 
 * {
@@ -20,7 +20,7 @@ body {
   line-height: 1.6;
 }
 
-/* ---------- NAV ---------- */
+
 nav {
   position: fixed;
   top: 0;
@@ -69,7 +69,7 @@ nav {
   text-shadow: 0 0 8px var(--accent);
 }
 
-/* ---------- HERO ---------- */
+
 #hero {
   padding-top: 120px;
   height: 100vh;
@@ -123,7 +123,6 @@ nav {
   transform: translateY(-3px);
 }
 
-/* ---------- SECTIONS ---------- */
 section {
   padding: 100px 10%;
   text-align: center;
@@ -147,7 +146,6 @@ h2::after {
   border-radius: 2px;
 }
 
-/* ---------- ABOUT ---------- */
 #about {
   background: none; 
   padding: 120px 10%;
@@ -168,7 +166,6 @@ h2::after {
   padding: 0;
 }
 
-/* ---------- SKILLS ---------- */
 .skills-grid {
   display: flex;
   flex-wrap: wrap;
@@ -195,7 +192,6 @@ h2::after {
   box-shadow: 0 0 12px var(--accent);
 }
 
-/* ---------- PROJECTS ---------- */
 .project {
   background: rgba(255, 255, 255, 0.03);
   border: 1px solid rgba(255, 255, 255, 0.08);
@@ -226,7 +222,6 @@ h2::after {
   line-height: 1.7;
 }
 
-/* ---------- CONTACT ---------- */
 .contact-links {
   display: flex;
   justify-content: center;
@@ -248,7 +243,6 @@ h2::after {
   text-shadow: 0 0 8px var(--accent);
 }
 
-/* ---------- FOOTER ---------- */
 footer {
   text-align: center;
   padding: 30px 0;
@@ -264,7 +258,6 @@ footer .ruby-heart {
   text-shadow: 0 0 10px rgba(0, 85, 204, 0.6);
 }
 
-/* ---------- RESPONSIVE ---------- */
 @media (max-width: 768px) {
   nav {
     flex-direction: column;
@@ -299,3 +292,4 @@ footer .ruby-heart {
     padding: 20px 0;
   }
 }
+
