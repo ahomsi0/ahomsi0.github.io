@@ -1,6 +1,7 @@
 :root {
   --bg: #0b0b0b;
   --accent: #0055cc;
+  --live: #ff3b3b;
   --text: #e8f1ff;
   --muted: #7a8da6;
 }
@@ -108,10 +109,22 @@ nav {
 
 .btn {
   display: inline-block;
-  margin-top: 35px;
+  margin-top: 16px;
   padding: 12px 28px;
   border: 2px solid var(--accent);
   color: var(--accent);
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s ease;
+}
+
+.live-demo {
+  display: inline-block;
+  margin-top: 35px;
+  padding: 12px 28px;
+  border: 2px solid var(--live);
+  color: var(--live);
   border-radius: 25px;
   text-decoration: none;
   font-weight: 500;
@@ -122,6 +135,13 @@ nav {
   background: var(--accent);
   color: var(--bg);
   box-shadow: 0 0 18px var(--accent);
+  transform: translateY(-3px);
+}
+
+.live-demo:hover {
+  background: var(--live);
+  color: var(--bg);
+  box-shadow: 0 0 18px var(--live);
   transform: translateY(-3px);
 }
 
